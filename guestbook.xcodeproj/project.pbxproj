@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCE1A051A6FB7DA0062A915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE1A041A6FB7DA0062A915 /* AppDelegate.swift */; };
+		CCCE1A081A6FB7DA0062A915 /* guestbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCE1A061A6FB7DA0062A915 /* guestbook.xcdatamodeld */; };
+		CCCE1A0A1A6FB7DA0062A915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE1A091A6FB7DA0062A915 /* ViewController.swift */; };
+		CCCE1A0D1A6FB7DA0062A915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCE1A0B1A6FB7DA0062A915 /* Main.storyboard */; };
+		CCCE1A0F1A6FB7DA0062A915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCE1A0E1A6FB7DA0062A915 /* Images.xcassets */; };
+		CCCE1A121A6FB7DA0062A915 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCE1A101A6FB7DA0062A915 /* LaunchScreen.xib */; };
+		CCCE1A1E1A6FB7DA0062A915 /* guestbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE1A1D1A6FB7DA0062A915 /* guestbookTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCE1A181A6FB7DA0062A915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCE19F71A6FB7D90062A915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCE19FE1A6FB7D90062A915;
+			remoteInfo = guestbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCCE19FF1A6FB7D90062A915 /* guestbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guestbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCE1A031A6FB7DA0062A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCE1A041A6FB7DA0062A915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCCE1A071A6FB7DA0062A915 /* guestbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guestbook.xcdatamodel; sourceTree = "<group>"; };
+		CCCE1A091A6FB7DA0062A915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCCE1A0C1A6FB7DA0062A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCE1A0E1A6FB7DA0062A915 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCCE1A111A6FB7DA0062A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCCE1A171A6FB7DA0062A915 /* guestbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guestbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCE1A1C1A6FB7DA0062A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCE1A1D1A6FB7DA0062A915 /* guestbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestbookTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCE19FC1A6FB7D90062A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCE1A141A6FB7DA0062A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCE19F61A6FB7D90062A915 = {
+			isa = PBXGroup;
+			children = (
+				CCCE1A011A6FB7D90062A915 /* guestbook */,
+				CCCE1A1A1A6FB7DA0062A915 /* guestbookTests */,
+				CCCE1A001A6FB7D90062A915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCE1A001A6FB7D90062A915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE19FF1A6FB7D90062A915 /* guestbook.app */,
+				CCCE1A171A6FB7DA0062A915 /* guestbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCE1A011A6FB7D90062A915 /* guestbook */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE1A041A6FB7DA0062A915 /* AppDelegate.swift */,
+				CCCE1A091A6FB7DA0062A915 /* ViewController.swift */,
+				CCCE1A0B1A6FB7DA0062A915 /* Main.storyboard */,
+				CCCE1A0E1A6FB7DA0062A915 /* Images.xcassets */,
+				CCCE1A101A6FB7DA0062A915 /* LaunchScreen.xib */,
+				CCCE1A061A6FB7DA0062A915 /* guestbook.xcdatamodeld */,
+				CCCE1A021A6FB7DA0062A915 /* Supporting Files */,
+			);
+			path = guestbook;
+			sourceTree = "<group>";
+		};
+		CCCE1A021A6FB7DA0062A915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE1A031A6FB7DA0062A915 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCCE1A1A1A6FB7DA0062A915 /* guestbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE1A1D1A6FB7DA0062A915 /* guestbookTests.swift */,
+				CCCE1A1B1A6FB7DA0062A915 /* Supporting Files */,
+			);
+			path = guestbookTests;
+			sourceTree = "<group>";
+		};
+		CCCE1A1B1A6FB7DA0062A915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE1A1C1A6FB7DA0062A915 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCE19FE1A6FB7D90062A915 /* guestbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCE1A211A6FB7DA0062A915 /* Build configuration list for PBXNativeTarget "guestbook" */;
+			buildPhases = (
+				CCCE19FB1A6FB7D90062A915 /* Sources */,
+				CCCE19FC1A6FB7D90062A915 /* Frameworks */,
+				CCCE19FD1A6FB7D90062A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guestbook;
+			productName = guestbook;
+			productReference = CCCE19FF1A6FB7D90062A915 /* guestbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCCE1A161A6FB7DA0062A915 /* guestbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCE1A241A6FB7DA0062A915 /* Build configuration list for PBXNativeTarget "guestbookTests" */;
+			buildPhases = (
+				CCCE1A131A6FB7DA0062A915 /* Sources */,
+				CCCE1A141A6FB7DA0062A915 /* Frameworks */,
+				CCCE1A151A6FB7DA0062A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCE1A191A6FB7DA0062A915 /* PBXTargetDependency */,
+			);
+			name = guestbookTests;
+			productName = guestbookTests;
+			productReference = CCCE1A171A6FB7DA0062A915 /* guestbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCE19F71A6FB7D90062A915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "倉井 一丸";
+				TargetAttributes = {
+					CCCE19FE1A6FB7D90062A915 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CCCE1A161A6FB7DA0062A915 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CCCE19FE1A6FB7D90062A915;
+					};
+				};
+			};
+			buildConfigurationList = CCCE19FA1A6FB7D90062A915 /* Build configuration list for PBXProject "guestbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCE19F61A6FB7D90062A915;
+			productRefGroup = CCCE1A001A6FB7D90062A915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCE19FE1A6FB7D90062A915 /* guestbook */,
+				CCCE1A161A6FB7DA0062A915 /* guestbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCE19FD1A6FB7D90062A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCE1A0D1A6FB7DA0062A915 /* Main.storyboard in Resources */,
+				CCCE1A121A6FB7DA0062A915 /* LaunchScreen.xib in Resources */,
+				CCCE1A0F1A6FB7DA0062A915 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCE1A151A6FB7DA0062A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCE19FB1A6FB7D90062A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCE1A0A1A6FB7DA0062A915 /* ViewController.swift in Sources */,
+				CCCE1A051A6FB7DA0062A915 /* AppDelegate.swift in Sources */,
+				CCCE1A081A6FB7DA0062A915 /* guestbook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCE1A131A6FB7DA0062A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCE1A1E1A6FB7DA0062A915 /* guestbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCE1A191A6FB7DA0062A915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCE19FE1A6FB7D90062A915 /* guestbook */;
+			targetProxy = CCCE1A181A6FB7DA0062A915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCCE1A0B1A6FB7DA0062A915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCE1A0C1A6FB7DA0062A915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCE1A101A6FB7DA0062A915 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCE1A111A6FB7DA0062A915 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCE1A1F1A6FB7DA0062A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCCE1A201A6FB7DA0062A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCE1A221A6FB7DA0062A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = guestbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCCE1A231A6FB7DA0062A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = guestbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCCE1A251A6FB7DA0062A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = guestbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guestbook.app/guestbook";
+			};
+			name = Debug;
+		};
+		CCCE1A261A6FB7DA0062A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = guestbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guestbook.app/guestbook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCE19FA1A6FB7D90062A915 /* Build configuration list for PBXProject "guestbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCE1A1F1A6FB7DA0062A915 /* Debug */,
+				CCCE1A201A6FB7DA0062A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCE1A211A6FB7DA0062A915 /* Build configuration list for PBXNativeTarget "guestbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCE1A221A6FB7DA0062A915 /* Debug */,
+				CCCE1A231A6FB7DA0062A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCCE1A241A6FB7DA0062A915 /* Build configuration list for PBXNativeTarget "guestbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCE1A251A6FB7DA0062A915 /* Debug */,
+				CCCE1A261A6FB7DA0062A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCCE1A061A6FB7DA0062A915 /* guestbook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCCE1A071A6FB7DA0062A915 /* guestbook.xcdatamodel */,
+			);
+			currentVersion = CCCE1A071A6FB7DA0062A915 /* guestbook.xcdatamodel */;
+			path = guestbook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCCE19F71A6FB7D90062A915 /* Project object */;
+}
