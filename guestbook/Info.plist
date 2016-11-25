@@ -36,6 +36,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>位置情報をおしえてください</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>位置情報を取得しています</string>
+	<key>APIBaseURL</key>
+	<string>http://${API_HOST}</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
